@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Inter var';
+    src: url('./../../../Inter.var.woff2');
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5em 2em;
+    letter-spacing: -0.011em;
+    font-family: 'Inter var', sans-serif;
+    font-size: 16px;
+    color: #34495e;
+    background: #f8f9fa;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+thead th {
+    background-color: #7f87c4;
+    font-weight: 500;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+tbody tr:nth-child(odd) {
+    background: #ebebeb;
+}
+
+.text {
+    font-size: 0.9em;
+    border: none;
+    padding: 0.8em 0.8rem;
+    text-align: left;
+    font-feature-settings: 'tnum' 1;
+}
+
+.number {
+    border: none;
+    padding: 0.8em 0.8rem;
+    text-align: right;
+    font-feature-settings: 'tnum' 1;
+}
+
+tr:hover {
+    background: #bdeff2 !important;
+}
